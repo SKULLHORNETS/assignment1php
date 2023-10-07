@@ -1,0 +1,51 @@
+/* Remove default margins and set background color */
+body {
+    margin: 0;
+    background: rgba(15, 99, 152, 0.71);
+}
+/* Header styling */
+header{
+    font-family: 'Montserrat', sans-serif;
+    height: 150px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    background: #b3e5fc;
+}
+/* Navigation menu styling */
+header > nav > menu{
+    display: flex;
+    list-style: none;
+
+}
+header > nav > menu > li{
+    padding: 0px 15px;
+
+}
+header > nav > menu > li > a{
+    color: #0e0e0e;
+}
+/* logo image styling */
+header img {
+    height: 200px;
+}
+/* Main heading styling and font */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+/* Main image styling and centering */
+h2 > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-radius: 8px;
+}
+/* Footer styling and centering content */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #b3e5fc;
+}
